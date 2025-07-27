@@ -18,7 +18,7 @@ load_dotenv()
 
 # Configure the Gemini API
 try:
-    genai.configure(api_key="AIzaSyCnItoCx2hjv9F_7TZqMBYJf8Ha2pyKOWI")
+    genai.configure(api_key="key")
     GEMINI_MODEL = genai.GenerativeModel('gemini-2.5-pro')
     print("Gemini API configured successfully.")
 except Exception as e:
