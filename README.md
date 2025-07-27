@@ -6,7 +6,7 @@ This is a web application built with Gradio and Python that uses the Google Gemi
 The tool helps you optimize your resume's content to achieve a high ATS (Applicant Tracking System) score by aligning it with the keywords and requirements of a job description.
 
 
-*(A placeholder image. You can replace this with a real screenshot of your running application.)*
+
 
 ## Features
 
