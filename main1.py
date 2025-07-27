@@ -22,7 +22,7 @@ load_dotenv()
 # Configure the Gemini API
 try:
     # Replace with your actual API key or use environment variable
-    genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyCnItoCx2hjv9F_7TZqMBYJf8Ha2pyKOWI"))
+    genai.configure(api_key=os.getenv("GEMINI_API_KEY", "key"))
     GEMINI_MODEL = genai.GenerativeModel('gemini-2.0-flash-exp')
     print("Gemini API configured successfully.")
 except Exception as e:
